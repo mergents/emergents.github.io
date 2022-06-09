@@ -1,0 +1,9 @@
+ui:
+  bundle:
+    url: <url-of-bundle-goes-here>
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files:
+      - .nojekyll
+  - path: .nojekyll
